@@ -1,0 +1,26 @@
+{
+    "control": [
+        { "VTOY_TREE_VIEW_MENU_STYLE": "0" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/" },
+        { "VTOY_MENU_TIMEOUT": "10" },
+        { "VTOY_WIN11_BYPASS_CHECK": "1" },
+        { "VTOY_HELP_TXT_LANGUAGE": "en_US" }
+    ],
+    "theme_legacy": {
+        "display_mode": "CLI"
+    },
+    "theme_uefi": {
+        "display_mode": "GUI",
+        "file": "/ventoy/themes/grub_theme/theme.txt",
+        "gfxmode": "1920x1080",
+        "ventoy_left": "5%",
+        "ventoy_top": "95%",
+        "ventoy_color": "#861F3D"
+    },
+    "persistence": [
+        {
+            "image": "/archlinux-****.**.**-x86_64.iso",
+            "backend": "/persistence/archlinux_ext4_512MB_vtoycow.dat"
+        }
+    ]
+}

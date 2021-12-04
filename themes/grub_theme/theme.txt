@@ -1,0 +1,42 @@
+# vim: commentstring=#%s
+
+# general settings
+ title-text: "e: Edit    c: CLI    Ctrl+h: Help"
+ title-font: "Terminus (TTF) 12"
+ title-color: "#FFFFFF"
+ # desktop-color: "#0A151F"
+ desktop-color: "#000000"
+ terminal-font: "Terminus (TTF) 12"
+ terminal-box: "terminal_box_*.png"
+
+# boot menu
++ boot_menu {
+    left = 10%
+    width = 90%
+    top = 10%
+    height = 90%	
+    item_font = "Terminus (TTF) 12"
+    item_color = "#861F3D"
+    selected_item_font = "Terminus (TTF) 12"
+    selected_item_color = "#FEFFFF"
+    icon_width = 16
+    icon_height = 16
+    item_height = 33
+    item_padding = 20
+    item_icon_space = 5
+    item_spacing = 5
+}
+
+# Show progress
++ progress_bar {
+  id = "__timeout__"
+  left = 0%
+  width = 100%
+  top = 99%
+  height = 1%
+  show_text = false
+  text = ""
+  fg_color = "#FEFFFF"
+  bg_color = "#000000"
+  border_color = "#000000"
+}
